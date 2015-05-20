@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true; do
+    echo "centos-demo hello" >> /tmp/demo.log
+    sleep 2;
+done &
+
